@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "v": "^0.3.0",
+    "virtual-dom": "^2.1.1"
+  }
+}

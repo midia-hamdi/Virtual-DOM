@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Dom</title>
+    <style>
+        body{
+            background-color: blue;
+            color: white;
+        }
+
+        .box{
+            text-align: center;
+            line-height: 100px;
+            border: 3px solid #ffffff;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- <div class="box">0</div> -->
+
+    <!-- <script>
+        const element = document.createElement('div');
+        element.classList.add('box');
+
+        let count = 0;
+        element.innerText = count;
+
+        document.body.appendChild(element);
+
+
+        setInterval(() => {
+            count ++
+            const length = (100 + count) + 'px'
+
+            element.style.height = length
+            element.style.width = length
+            element.style.lineHeight = length
+
+            element.innerText = count
+
+        }, 1000);
+    </script> -->
+
+    <script src="./index.js"></script>
 </body>
 </html>
